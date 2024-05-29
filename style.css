@@ -1,0 +1,80 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  font-size: 62.5%;
+  font-family: "Alice", serif;
+  color: var(--text-color-secondary);
+
+  --background-color: #573824;
+  --surface-color: #f0e8c2;
+
+  --text-color-primary: #291b1a;
+  --text-color-secondary: #573a37;
+  --text-color-on-bg: #f0e8c2;
+}
+
+body {
+  font-size: 1.6rem;
+
+  background-image: url(assets/bg-image.jpg);
+  background-size: cover;
+}
+
+#page {
+  padding: 2.4rem;
+  width: 80rem;
+  background-color: var(--surface-color);
+  border-radius: 2.4rem;
+  margin: 4.8rem auto;
+}
+
+img {
+  border-radius: 1.6rem;
+}
+
+main {
+  padding: 2.4rem;
+}
+
+section + section {
+  margin-top: 2.4rem;
+}
+
+#about p + p {
+  margin-top: 1.2rem;
+}
+
+h1,
+h2 {
+  font-weight: 400;
+  color: var(--text-color-primary);
+  margin-bottom: 0.4rem;
+  line-height: 150%;
+}
+
+h1 {
+  font-size: 4rem;
+  line-height: 140%;
+}
+
+h2 {
+  font-size: 2.4rem;
+}
+
+ul {
+  padding-left: 2.4rem;
+}
+
+footer {
+  color: var(--text-color-on-bg);
+  text-align: center;
+  padding-bottom: 4.8rem;
+}
+
+footer img {
+  vertical-align: middle;
+}
